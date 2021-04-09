@@ -10,7 +10,7 @@
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n <= 0.0) {
-	  if (num == 0.0) {
+	  if (n == 0.0) {
 	    printf("0 is zero");
 	  else
 	    printf("%d is negative", n);
