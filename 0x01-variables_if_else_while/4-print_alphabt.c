@@ -8,11 +8,11 @@ char c;
 if (c = 'e')
 {
 c = ''
-}
+};
 if (c = 'q')
 {
 c = ''
-}
+};
 putchar(c);
 putchar('\n');
 return (0);
