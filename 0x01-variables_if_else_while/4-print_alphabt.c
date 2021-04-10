@@ -7,11 +7,11 @@ char c;
  for (c = 'a'; c <= 'z'; c++)
 if (c = 'e')
 {
-c = '';
+c = 'c++';
 }
 if (c = 'q')
 {
-c = '';
+c = 'c++';
 }
 putchar(c);
 putchar('\n');
