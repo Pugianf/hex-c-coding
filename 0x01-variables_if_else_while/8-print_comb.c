@@ -3,7 +3,6 @@
 /*
  * explicacao aqui*/int main(void)
 {
-{
 int x;
 int a = (',');
 int b = (' ');
