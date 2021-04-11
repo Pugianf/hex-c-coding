@@ -3,13 +3,14 @@
 /*
  * explicacao aqui*/int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; ++c)
+char * line = "abcdfghijklmnroprstuvwxyz";
+int i = 0, j;
+    
+for (int i = 0, j; line[i] != '\0'; ++i)
 {
-while ((c >= 'a' && c <= 'd') && (c >= 'f' && c <= 'p') && (c >= 'r' && c <= 'z'))
-{
-putchar(c);
+putchar(line[i]);
 putchar('\n');
 }
-return (0);
+    
+return 0;
 }
