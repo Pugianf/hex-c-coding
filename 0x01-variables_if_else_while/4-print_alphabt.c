@@ -3,14 +3,13 @@
 /*
  * explicacao aqui*/int main(void)
 {
-char * line = "abcdfghijklmnroprstuvwxyz";
+char *line = "abcdfghijklmnroprstuvwxyz";
 int i = 0, j;
  
 for (i = 0, j; line[i] != '\0'; ++i)
 {
 putchar(line[i]);
-putchar('\n');
 }
-    
+putchar('\n');
 return 0;
 }
