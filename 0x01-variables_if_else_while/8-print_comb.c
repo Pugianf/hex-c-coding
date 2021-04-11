@@ -3,17 +3,22 @@
 /*
  * explicacao aqui*/int main(void)
 {
+{
 int x;
 int a = (',');
 int b = (' ');
-int c = ('9');
-for (x = 0; x <= 8; x++)
+for (x = 0; x <= 9; x++)
 {
 putchar((x % 10) + '0');
+if (x != 9)
+{
 putchar(a);
 putchar(b);
 }
-putchar(c);
+else
+{
+putchar('\n');
+}
+}
 return (0);
 }
-
