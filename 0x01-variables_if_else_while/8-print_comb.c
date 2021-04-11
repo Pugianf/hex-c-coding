@@ -4,11 +4,16 @@
  * explicacao aqui*/int main(void)
 {
 int x;
-for (x = 0; x <= 9; x++)
+int a = (',');
+int b = (' ');
+int c = ('9');
+for (x = 0; x <= 8; x++)
 {
 putchar((x % 10) + '0');
-printf(", ");
+putchar(a);
+putchar(b);
 }
-putchar('\n');
+putchar(c);
 return (0);
 }
+
