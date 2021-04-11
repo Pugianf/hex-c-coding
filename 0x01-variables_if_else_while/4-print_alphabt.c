@@ -4,7 +4,6 @@
  * explicacao aqui*/int main(void)
 {
 char * line = "abcdfghijklmnroprstuvwxyz";
-int i = 0, j;
     
 for (int i = 0, j; line[i] != '\0'; ++i)
 {
