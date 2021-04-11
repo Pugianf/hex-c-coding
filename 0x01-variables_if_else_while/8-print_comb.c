@@ -3,7 +3,6 @@
 /*
  * explicacao aqui*/int main(void)
 {
-char c;
 int x;
 for (x = 0; x <= 9; x++)
 {
