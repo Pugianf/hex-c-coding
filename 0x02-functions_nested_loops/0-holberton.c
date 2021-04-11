@@ -1,10 +1,10 @@
-#include <stdio.h>
+#include <holberton.h>
 
 /*
  * explicacao aqui*/int main(void)
 {
-char *frase;
-frase = ("Holberton");
-printf("%s\n", frase);
+char *c;
+c = ("Holberton");
+_putchar(c);
 return (0);
 }
