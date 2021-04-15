@@ -1,10 +1,6 @@
----
+<h2> Holberton School <h2>
 
-<h2>Holberton School<h2>
-
----
-
-<h3>Learning C coding<h3>
+<h3> Learning C coding <h3>
 
 ---
 
