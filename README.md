@@ -1,10 +1,6 @@
-<h3>**Holberton School**<h3>
+<h2>**Holberton School**<h2>
 
-***
-
-<h2>Learning C coding<h2>
-
-***
+<h4>Learning C coding<h4>
 
 Constrains
 
