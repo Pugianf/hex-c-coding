@@ -1,13 +1,20 @@
+/**
+ * main - entry point
+ *
+ * Return: always 0, success
+ */
+
 #include <stdio.h>
 
-/*
- * explicacao aqui*/int main(void)
+int main(void)
 {
-int x;
-for (x = 0; x <= 9; x++)
-{
-printf("%d", x);
-}
-printf("\n");
-return (0);
+	int x;
+
+	for (x = 0; x <= 9; x++)
+	{
+		printf("%d", x);
+	}
+	printf("\n");
+
+	return (0);
 }

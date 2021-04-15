@@ -8,11 +8,20 @@
 
 int main(void)
 {
-	int x;
+	int letter;
 
-	for (x = 0; x <= 9; x++)
+	char c;
+
+	for (c = 'a'; c < 'z'; c++)
 	{
-		putchar((x % 10) + '0');
+		if ((c == 'e') || (c == 'q'))
+		{
+			continue;
+		}
+		else
+		{
+		putchar(c);
+		}
 	}
 	putchar('\n');
 
