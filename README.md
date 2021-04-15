@@ -2,6 +2,8 @@
 
 <h3>Learning C coding</h3>
 
+---
+
 **Constrains**
 
 1. Not allowed use of standard libraries
