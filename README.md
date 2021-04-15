@@ -1,5 +1,6 @@
-<h2> Holberton School <h2>
-Learning C coding
+<h2>Holberton School</h2>
+
+<h3>Learning C coding</h3>
 
 **Constrains**
 
