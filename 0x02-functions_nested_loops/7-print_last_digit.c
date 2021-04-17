@@ -12,18 +12,14 @@ int print_last_digit(int n)
 {
 	char c;
 
-	if (n == 0)
+	if (n < 0)
 	{
-		n = 0;
-	}
-	else if (n > 1)
-	{
-		n = n % 10;
+		n = ((n + 1) * -1);
+		n = (n % 10);
 	}
 	else
 	{
-		n = n * (-1);
-		n = n % 10;
+		n = (n % 10);
 	}
 
 	c = (n + '0');
