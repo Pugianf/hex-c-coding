@@ -1,5 +1,7 @@
 /**
- * _islower - a function that checks if a letter is lowercase
+ * _islower - a function that checks a parameter c is lowercase
+ *
+ * @c: is integer
  *
  * Return: 1 if c is lower case and 0 otherwise
  */
