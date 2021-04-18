@@ -1,6 +1,10 @@
 /**
  * add - a function that adds 2 integers
  *
+ * @a: entry of an integer
+ *
+ * @b: entry of an integer
+ *
  * Return: the sum of the 2 arguments
  */
 
