@@ -5,6 +5,7 @@
  */
 
 #include "holberton.h"
+#include <stdio.h>
 
 void fork(int c);
 
