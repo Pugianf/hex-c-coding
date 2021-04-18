@@ -7,7 +7,7 @@
 #include "holberton.h"
 #include <stdio.h>
 
-void fork(int c);
+void not_first_or_final(int c);
 
 void times_table(void)
 {
@@ -27,7 +27,7 @@ void times_table(void)
 			}
 			else if ( b < 9)
 			{
-				fork(c);	
+				not_first_or_final(c);	
 			}
 			else
 			{
@@ -49,7 +49,7 @@ void times_table(void)
 	}
 }
 
-void fork(int c)
+void not_first_or_final(int c)
 {
 	if (c < 10)
 	{
