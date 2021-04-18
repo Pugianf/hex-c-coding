@@ -3,7 +3,7 @@
  *
  * @a: entry of an integer
  *
- * @b: entry of an integer
+ * @b: entry of another integer
  *
  * Return: the sum of the 2 arguments
  */
