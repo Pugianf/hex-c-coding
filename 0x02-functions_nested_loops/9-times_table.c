@@ -6,7 +6,7 @@
 
 #include "holberton.h"
 
-int fork(int c);
+void fork(int c);
 
 void times_table(void)
 {
