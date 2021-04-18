@@ -1,6 +1,8 @@
 /**
  * times_table - return the 9 times table
  *
+ * @c: input from the main function
+ *
  * Return: void
  */
 
@@ -19,15 +21,15 @@ void times_table(void)
 		{
 			c = (a * b);
 
-			if ( b == 0)
+			if (b == 0)
 			{
 				_putchar('0');
 				_putchar(44);
 				_putchar(32);
 			}
-			else if ( b < 9)
+			else if (b < 9)
 			{
-				not_first_or_final(c);	
+				not_first_or_final(c);
 			}
 			else
 			{
@@ -48,6 +50,14 @@ void times_table(void)
 		b = 0;
 	}
 }
+
+/**
+ * not_first_or_final - returns numbers that re not in the start or end
+ *
+ * @c: input from the main function
+ *
+ * @not_first_or_final
+ */
 
 void not_first_or_final(int c)
 {
