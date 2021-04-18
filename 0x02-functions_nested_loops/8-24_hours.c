@@ -6,11 +6,13 @@
 
 #include "holberton.h"
 
+void hr_1(void);
+void hr_2(void);
+
 void jack_bauer(void)
 {
 hr_1();
 hr_2();
-return (0);
 }
 
 /**
