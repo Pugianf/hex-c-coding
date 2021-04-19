@@ -1,7 +1,7 @@
 /**
  * print_to_98 - returns n to 98
  *
- * @n - given number
+ * @n: given number
  *
  * Return: print each number from n to 98
  */
