@@ -60,12 +60,22 @@ void print_to_98(int n)
 	}
 }
 
+/**
+ * final_98 - when ends with 98
+ * @n: integer
+ */
+
 void final_98(int n)
 {
 	_putchar((n / 10) + '0');
 	_putchar((n % 10) + '0');
 	_putchar('\n');
 }
+
+/**
+ * less_10 - when n is less than 10
+ *@n: integer
+ */
 
 void less_10(int n)
 {
@@ -74,6 +84,11 @@ void less_10(int n)
 	_putchar(32);
 }
 
+/**
+ * more_10 - for n more than 10
+ * @n: integer
+ */
+
 void more_10(int n)
 {
 	_putchar((n / 10) + '0');
@@ -81,6 +96,11 @@ void more_10(int n)
 	_putchar(44);
 	_putchar(32);
 }
+
+/**
+ * more_100 - when n is more than 100
+ * @n
+ */
 
 void more_100(int n)
 {
@@ -91,11 +111,16 @@ void more_100(int n)
 	_putchar(32);
 }
 
+/**
+ * less_0 - when n is less than 0
+ * @n
+ */
+
 void less_0(int n)
 {
 	n = (n * (-1));
 
-	if (n > 100)
+	if (n > 99)
 	{
 		_putchar(45);
 		_putchar(((n / 10) / 10) + '0');
