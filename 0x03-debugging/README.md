@@ -1,5 +1,5 @@
-<h2>C coding</h2>
+<h2>Holberton School - C Coding</h2>
 
-*Debugging*
----
+**Debugging**
+___
 Practicing debugging strategies
