@@ -99,7 +99,7 @@ void more_10(int n)
 
 /**
  * more_100 - when n is more than 100
- * @n
+ * @n: integer
  */
 
 void more_100(int n)
@@ -113,7 +113,7 @@ void more_100(int n)
 
 /**
  * less_0 - when n is less than 0
- * @n
+ * @n: integer
  */
 
 void less_0(int n)
