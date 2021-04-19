@@ -2,4 +2,5 @@
 
 <h3>Debugging</h3>
 ___
+
 Practicing debugging strategies
