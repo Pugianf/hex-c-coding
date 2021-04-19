@@ -95,7 +95,17 @@ void less_0(int n)
 {
 	n = (n * (-1));
 
-	if (n > 9)
+	if (n > 100)
+	{
+		_putchar(45);
+		_putchar(((n / 10) / 10) + '0');
+		_putchar(((n / 10) % 10) + '0');
+		_putchar((n % 10) + '0');
+		_putchar(44);
+		_putchar(32);
+	}
+
+	else if (n > 9)
 	{
 		_putchar(45);
 		_putchar((n / 10) + '0');
