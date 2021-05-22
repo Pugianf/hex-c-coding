@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_numbers: prints the numbers from 0 to 9, followed by a new line
+ * print_numbers - prints the numbers from 0 to 9, followed by a new line
  *
- * Return: Always 0.
+ * Return the sequence printed
  */
 
 void print_numbers(void)
@@ -16,4 +16,4 @@ void print_numbers(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-} 
+}
