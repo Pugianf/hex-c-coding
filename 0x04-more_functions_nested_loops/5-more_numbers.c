@@ -33,7 +33,7 @@ void more_numbers(void)
 				last_digit(n);
 			}
 		}
-		_putchar('\n`);
+		_putchar('\n');
 		i++;
 	}
 }
