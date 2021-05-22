@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdio.c>
+#include <stdio.h>
 
 /**
  * _isdigit - function that says if a digit is between 0 and 9
