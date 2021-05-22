@@ -52,4 +52,4 @@ void last_digit(int n)
 
 	a = (n % 10);
 	_putchar(a + '0');
-}	  
+}
