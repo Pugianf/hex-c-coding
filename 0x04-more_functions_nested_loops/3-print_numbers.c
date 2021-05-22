@@ -16,5 +16,4 @@ void print_numbers(void)
 		_putchar('c');
 	}
 	_putchar('\n');
-	return (void);
 } 
