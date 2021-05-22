@@ -14,12 +14,13 @@ void last_digit(int n);
 void more_numbers(void)
 {
 	int n;
+	int i = 0;
 
-	while (int i < 10)
+	while (i < 10)
 	{
 		for (n = 0; n < 15; n++)
 		{
-			if n < 10
+			if (n < 10)
 			{
 				last_digit(n);
 			}
@@ -27,7 +28,7 @@ void more_numbers(void)
 			{
 				int b;
 
-				b = n / 10;
+				b = (n / 10);
 				_putchar(b + '0');
 				last_digit(n);
 			}
@@ -49,6 +50,6 @@ void last_digit(int n)
 {
 	int a;
 
-	a = n % 10;
+	a = (n % 10);
 	_putchar(a + '0');
 }	  
