@@ -54,7 +54,7 @@ void chara(int b)
 {
 	int i = 0;
 
-	for (; i < b; a++)
+	for (; i < b; i++)
 	{
 		_putchar(35);
 	} 
