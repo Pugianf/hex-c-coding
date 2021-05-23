@@ -15,7 +15,7 @@ void print_triangle(int size)
 
 	if (size > 0)
 	{
-		for (;i <= size ;i++)
+		for (; i <= size; i++)
 		{
 			space(size - i);
 			chara(i);
@@ -25,18 +25,17 @@ void print_triangle(int size)
 	else
 	{
 		_putchar('\n');
-	}	
+	}
 }
 
 /**
  * space - prints the spaces needed for each line
- *
  * @a: integer number of spaces
  */
 
 void space(int a)
 {
-	int i =0;
+	int i = 0;
 
 	for (; i < a; i++)
 	{
@@ -46,8 +45,7 @@ void space(int a)
 
 /**
  * chara - prints the # character needed for each line
- *
- * @b - integer number of # characteres
+ * @b: integer number of # characteres
  */
 
 void chara(int b)
@@ -57,5 +55,5 @@ void chara(int b)
 	for (; i < b; i++)
 	{
 		_putchar(35);
-	} 
+	}
 }
