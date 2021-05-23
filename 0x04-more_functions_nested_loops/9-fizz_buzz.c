@@ -23,22 +23,22 @@ void fizz_buzz(void)
 		{
 			if ((i % 5) == 0)
 			{
-				printf("FizzBuzz\n");
+				printf("FizzBuzz ");
 			}
 			else
 			{
-				printf("Fizz\n");
+				printf("Fizz ");
 			}
 		}
 		else
 		{
 			if ((i % 5) == 0)
 			{
-				printf("Buzz\n");
+				printf("Buzz ");
 			}
 			else
 			{
-				printf("%d\n", i);
+				printf("%d ", i);
 			}
 		}
 	}
