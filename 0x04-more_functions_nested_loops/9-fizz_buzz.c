@@ -9,7 +9,7 @@ void fizz_buzz(void)
 {
 	int i = 1;
 
-	for (; i < 101; i++)
+	for (; i <= 100; i++)
 	{
 		if ((i % 3) == 0)
 		{
