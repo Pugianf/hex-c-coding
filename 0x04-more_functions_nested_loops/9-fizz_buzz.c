@@ -30,7 +30,7 @@ void fizz_buzz(void)
 			}
 			else
 			{
-				printf("%i\n", i);
+				printf("%d\n", i);
 			}
 		}
 	}
