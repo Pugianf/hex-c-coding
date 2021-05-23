@@ -6,10 +6,12 @@
  *
  * @n: number of diagonals that must be created
  *
+ * @x: number of spaces less one 
+ *
  * Return: a diagonal with spaces and '\'
  */
 
-void spaces (int x);
+void spaces(int x);
 
 void print_diagonal(int n)
 {
@@ -43,7 +45,7 @@ void print_diagonal(int n)
  * @x: number of spaces less one
  */
 
-void spaces (int x)
+void spaces(int x)
 {
 	int a = 0;
 
