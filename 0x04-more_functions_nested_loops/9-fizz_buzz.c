@@ -7,7 +7,7 @@
  * main - calls for fizz_buzz
  */
 
-void fizz_buzz(void);
+void fizz_buzz(int i);
 
 int main(void)
 {
