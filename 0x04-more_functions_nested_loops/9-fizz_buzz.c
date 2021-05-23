@@ -3,6 +3,8 @@
 
 /**
  * fizz_buzz - ignores multiples of 3 and 5 with fizz and buzz
+ *
+ * main - calls for fizz_buzz
  */
 
 void fizz_buzz(void);
@@ -10,7 +12,7 @@ void fizz_buzz(void);
 int main(void)
 {
 	fizz_buzz();
-	return(0);
+	return (0);
 }
 
 void fizz_buzz(void)
