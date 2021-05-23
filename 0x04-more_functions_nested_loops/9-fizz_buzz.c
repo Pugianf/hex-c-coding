@@ -32,6 +32,8 @@ int main(void)
 
 /**
  * fizz_buzz - ignores multiples of 3 and 5 with fizz and buzz
+ *
+ * @i: integer
  */
 
 void fizz_buzz(int i)
