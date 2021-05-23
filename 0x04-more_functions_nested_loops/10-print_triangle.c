@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - prints a triangle
- *
+ * @a: number of spaces
  * @b: number of # characteres
  */
 
