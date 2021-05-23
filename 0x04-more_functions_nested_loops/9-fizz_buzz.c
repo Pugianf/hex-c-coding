@@ -5,6 +5,13 @@
  * fizz_buzz - ignores multiples of 3 and 5 with fizz and buzz
  */
 
+void fizz_buzz(void);
+
+int main(void)
+{
+	fizz_buzz();
+}
+
 void fizz_buzz(void)
 {
 	int i;
