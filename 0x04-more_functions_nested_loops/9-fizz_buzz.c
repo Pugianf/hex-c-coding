@@ -21,6 +21,7 @@ void fizz_buzz(void)
 			{
 				printf("Fizz\n");
 			}
+		}
 		else
 		{
 			if ((i % 5) == 0)
@@ -32,4 +33,5 @@ void fizz_buzz(void)
 				printf("%i\n", i);
 			}
 		}
+	}
 }
