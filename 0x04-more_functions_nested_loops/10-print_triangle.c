@@ -1,7 +1,13 @@
 #include "holberton.h"
 
-void space(int i);
-void chara(int i);
+/**
+ * print_triangle - prints a triangle
+ *
+ * @b: number of # characteres
+ */
+
+void space(int a);
+void chara(int b);
 
 void print_triangle(int size)
 {
@@ -22,19 +28,33 @@ void print_triangle(int size)
 	}	
 }
 
-void space(int i)
+/**
+ * space - prints the spaces needed for each line
+ *
+ * @a: integer number of spaces
+ */
+
+void space(int a)
 {
-	for (; i < size; i++)
+	int i =0;
+
+	for (; i < a; i++)
 	{
 		_putchar(32);
 	}
 }
 
-void chara(int i)
-{
-	int a = 0;
+/**
+ * chara - prints the # character needed for each line
+ *
+ * @b - integer number of # characteres
+ */
 
-	for (; a < i; a++)
+void chara(int b)
+{
+	int i = 0;
+
+	for (; i < b; a++)
 	{
 		_putchar(35);
 	} 
