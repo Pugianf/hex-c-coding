@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - calls for fizz_buzz
  *
  * fizz_buzz - ignores multiples of 3 and 5 with fizz and buzz
@@ -30,6 +29,10 @@ int main(void)
 	}
 	return (0);
 }
+
+/**
+ * fizz_buzz - ignores multiples of 3 and 5 with fizz and buzz
+ */
 
 void fizz_buzz(int i)
 {
