@@ -1,9 +1,12 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - ignores multiples of 3 and 5 with fizz and buzz
  *
  * main - calls for fizz_buzz
+ *
+ * fizz_buzz - ignores multiples of 3 and 5 with fizz and buzz
+ *
+ * @i: integer
  */
 
 void fizz_buzz(int i);
@@ -12,7 +15,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 1; i <=100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
 		{
