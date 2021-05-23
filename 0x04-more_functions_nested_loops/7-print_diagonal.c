@@ -4,9 +4,7 @@
 /**
  * print_diagonal - creates a diagonal with backlashs and spaces
  *
- * @n: number of diagonals that must be created
- *
- * @x: number of spaces less one 
+ * @x: number of spaces less one
  *
  * Return: a diagonal with spaces and '\'
  */
