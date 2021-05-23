@@ -3,7 +3,6 @@
 /**
  * print_triangle - prints a triangle
  * @a: number of spaces
- * @b: number of # characteres
  */
 
 void space(int a);
@@ -45,6 +44,7 @@ void space(int a)
 
 /**
  * chara - prints the # character needed for each line
+ * @b: number of # characteres
  */
 
 void chara(int b)
