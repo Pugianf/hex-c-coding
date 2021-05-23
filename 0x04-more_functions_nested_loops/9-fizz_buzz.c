@@ -17,11 +17,11 @@ int main(void)
 	{
 		if (i == 100)
 		{
-			fizz_buzz();
+			fizz_buzz(i);
 		}
 		else
 		{
-			fizz_buzz();
+			fizz_buzz(i);
 			printf(" ");
 		}
 	}
