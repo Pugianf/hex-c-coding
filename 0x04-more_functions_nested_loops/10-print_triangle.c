@@ -45,7 +45,6 @@ void space(int a)
 
 /**
  * chara - prints the # character needed for each line
- * @b: integer number of # characteres
  */
 
 void chara(int b)
