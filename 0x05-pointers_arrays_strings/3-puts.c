@@ -18,6 +18,6 @@ void _puts(char *str)
 	}
 	if (*(str + i) == '\0')
 	{
-		_putchar(32);
+		_putchar(10);
 	}
 }
