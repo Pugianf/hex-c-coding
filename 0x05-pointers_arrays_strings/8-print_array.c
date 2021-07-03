@@ -12,18 +12,18 @@
 void print_array(int *a, int n)
 {
 	int i = 0;
-	int j;
+	int j[];
 
 	while (i < n)
 	{
-		j = *a[i];
+		j[i] = *a[i];
 
 		printf("%i, ", j);
 
 		i++;
 	}
 
-	j = *a[i];
+	j[i] = *a[i];
 
 	printf("%i", j);
 }
