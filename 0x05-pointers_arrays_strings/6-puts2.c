@@ -26,9 +26,10 @@ void puts2(char *str)
 		i = (i - 1);
 	}
 	
-	for (j = 0; j <= i; 2)
+	while (j < i)
 	{
 		_putchar(*(str + j));
+		j = (j + 2);
 	}
 	_putchar(10);
 }
