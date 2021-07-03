@@ -15,10 +15,10 @@ void print_array(int *a, int n)
 
 	while (i < n);
 
-		printf("%i, ", *(a + i));
+		printf("%d, ", *(a + i));
 
 		i++;
 	}
 
-	printf("%i", *(a + 1));
+	printf("%d", *(a + 1));
 }
