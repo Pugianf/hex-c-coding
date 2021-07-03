@@ -31,7 +31,7 @@ void puts2(char *str)
 	else
 	{
 		i = (i - 1);
-	
+
 		while (j <= i)
 		{
 			_putchar(*(str + j));
