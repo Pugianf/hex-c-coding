@@ -20,6 +20,13 @@ void puts2(char *str)
 	if (((i - 1) % 2) == 0)
 	{
 		i = (i - 2);
+		while (j <= i)
+		{
+			_puchar(*(str + j));
+			j = (j + 2);
+		}
+		_putchar(*(str + j));
+		_putchar(10);
 	}
 	else
 	{
@@ -31,6 +38,5 @@ void puts2(char *str)
 		_putchar(*(str + j));
 		j = (j + 2);
 	}
-	_putchar(*(str + j));
 	_putchar(10);
 }
