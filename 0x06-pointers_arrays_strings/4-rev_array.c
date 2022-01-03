@@ -18,28 +18,13 @@ void reverse_array(int *a, int n)
 	{
 		i++;
 	}
-
-	if (n < i)
+	
+	while (j < i)
 	{
-		while (j < n)
-		{
-			c = a[j];
-			a[j] = a[n];
-			a[n] = c;
-			j++;
-			n--;
-		}
-	}
-
-	else
-	{
-		while (j < i)
-		{
-			c = a[j];
-			a[j] = a[i + 1];
-			a[i] = c;
-			j++;
-			i--;
-		}
+		c = a[j];
+		a[j] = a[i + 1];
+		a[i] = c;
+		j++;
+		i--;
 	}
 }
