@@ -1,10 +1,7 @@
 /**
  * reverse_array - function that reverses the content of an array of integers
- *
  * @a: an array of integers
- *
  * @n: the number of elements to swap
- *
  * Return: reversed array with length n
  */
 
@@ -26,14 +23,10 @@ void reverse_array(int *a, int n)
 	{
 		while (j < n)
 		{
-			c = a[j];
-			
+			c = a[j - 1];
 			a[j] = a[n];
-
 			a[n] = c;
-
 			j++;
-
 			n--;
 		}
 	}
@@ -42,15 +35,10 @@ void reverse_array(int *a, int n)
 	{
 		while (j < i)
 		{
-			c = a[j];
-
+			c = a[j - 1];
 			a[j] = a[i];
-
 			a[i] = c;
-
 			j++;
-
 			i--;
 		}
-	}
 }
