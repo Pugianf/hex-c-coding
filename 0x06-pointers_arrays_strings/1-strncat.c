@@ -34,7 +34,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		for (; c < n; c++)
 		{
-			*(dest + a + c) = *(src + c)
+			*(dest + a + c) = *(src + c);
 		}
 		*(dest + a + n) = '\0';
 
@@ -44,7 +44,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		for (; c < b; c++)
 		{
-			*(dest + a + c) = *(src + c)
+			*(dest + a + c) = *(src + c);
 		}
 		*(dest + a + b) = '\0';
 
