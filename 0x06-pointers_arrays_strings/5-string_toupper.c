@@ -1,5 +1,7 @@
 /**
- * string_toupper - function that changes all lowercases of a string to uppercase
+ * string_toupper - fctn that changes all lowercases of a string to uppercase
+ *
+ * @s: given string
  *
  * Return: upper string
  */
@@ -14,7 +16,7 @@ char *string_toupper(char *s)
 
 	for (; s[i] != '\0'; i++)
 	{
-		if (s[i] > 88)
+		if (s[i] > 96 && s[i] < 123))
 		{
 			s[i] = s[i] - 32;
 		}
