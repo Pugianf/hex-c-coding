@@ -12,12 +12,12 @@
 
 void reverse_array(int *a, int n)
 {
-	int i, j;
+	int i, j, c;
 
 	i = 0;
 	j = 0;
 
-	while (a[i] != '/0')
+	while (a[i] != '\0')
 	{
 		i++;
 	}
@@ -53,6 +53,4 @@ void reverse_array(int *a, int n)
 			i--;
 		}
 	}
-
-	return (a);
 }
