@@ -6,7 +6,7 @@
  * Return: string with first char captalized
  */
 
-char *cap_string(char *S)
+char *cap_string(char *s)
 {
 	int i;
 
