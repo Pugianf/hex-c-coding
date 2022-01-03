@@ -1,5 +1,5 @@
 /**
- * _strcat - function that concatenate two strings, limited by the number of bytes
+ * _strncat - function that concatenate two strings, lmtd by the nr of bytes
  *
  * @dest: a pointer to a char
  *
