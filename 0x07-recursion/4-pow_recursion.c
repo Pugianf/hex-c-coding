@@ -4,6 +4,8 @@
  * @x: base
  *
  * @y: power to be applied in x
+ *
+ * Return: integer
  */
 
 int _pow_recursion(int x, int y)
@@ -18,6 +20,6 @@ int _pow_recursion(int x, int y)
 	}
 	else
 	{
-		return(x * _pow_recursion(x, y - 1));
+		return (x * _pow_recursion(x, y - 1));
 	}
 }
