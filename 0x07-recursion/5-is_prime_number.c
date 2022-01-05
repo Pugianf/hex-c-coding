@@ -34,7 +34,7 @@ int is_prime_number(int n)
 
 int checkPrime(int n, int i)
 {
-	if (i == n)
+	if (i == 1)
 	{
 		return (1);
 	}
