@@ -25,9 +25,16 @@ int is_prime_number(int n)
 	return (primeNumber);
 }
 
+/**
+ * checkPrime - recursive function for prime
+ * @n: integer
+ * @i: integer
+ * Return: integer
+ */
+
 int checkPrime(int n, int i)
 {
-	if (i == n);
+	if (i == n)
 	{
 		return (1);
 	}
