@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 {
 	int i, j = 0;
 
-	if (arg c < 2)
+	if (argc < 2)
 	{
 		printf("0\n");
 	}
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < n; i++)
 		{
-			if (atoi(argv[i] == False))
+			if (atoi(argv[i] == FALSE))
 			{
 				printf("Error\n");
 				return (1);
