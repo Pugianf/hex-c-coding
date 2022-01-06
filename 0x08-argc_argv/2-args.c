@@ -8,6 +8,9 @@
  * Return: argument printed, one per line with new line
  */
 
+#include "holberton.h"
+#include <stdio.h>
+
 int main(int argc, char *argv[])
 {
 	int i;
