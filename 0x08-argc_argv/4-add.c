@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char *argc[])
+int main(int argc, char *argv[])
 {
 	int i, j = 0;
 
@@ -31,7 +31,7 @@ int main(int argc, char *argc[])
 			}
 			else
 			{
-				j += argv[i];
+				j += atoi(argv[i]);
 			}
 		}
 		return (0);
