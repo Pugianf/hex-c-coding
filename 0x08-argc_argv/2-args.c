@@ -8,7 +8,7 @@
  * Return: argument printed, one per line with new line
  */
 
-int main(argc, *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
