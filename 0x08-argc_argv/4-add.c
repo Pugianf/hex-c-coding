@@ -5,10 +5,6 @@
  *
  * @c: integer
  *
- * @argc: arguments count
- *
- * @argv: arguments vector
- *
  * Return: numbers added
  */
 
