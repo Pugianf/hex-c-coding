@@ -13,14 +13,19 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc < 2 && argc > 3)
+	int i, j;
+
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	else
 	{
-		printf("%d\n", (argv[2] * argv[3]));
+		i = argv[2];
+		j = argv[3];
+
+		printf("%d\n", i * j);
 		return (0);
 	}
 }
