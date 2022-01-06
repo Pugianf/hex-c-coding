@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (i = 0; i < n; i++)
+		for (i = 0; i < argc; i++)
 		{
-			if (atoi(argv[i] == FALSE))
+			if (typeof(atoi(argv[i]) != int))
 			{
 				printf("Error\n");
 				return (1);
