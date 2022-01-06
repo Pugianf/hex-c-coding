@@ -1,9 +1,9 @@
 /**
  * main - prints the number of arguments passed into it
  *
- * @argc - number of arguments
+ * @argc: number of arguments
  *
- * @argv - vector of arguments
+ * @argv: vector of arguments
  *
  * Return: integer
  */
