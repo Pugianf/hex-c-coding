@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		i = argv[2];
-		j = argv[3];
+		i = *argv[2];
+		j = *argv[3];
 
 		printf("%d\n", i * j);
 		return (0);
