@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < argc; i++)
 		{
-			if (typeof(atoi(argv[i]) != int))
+			if (__builtin_types_compatible_p(typeof(atoi(argv[i]), int)))
 			{
 				printf("Error\n");
 				return (1);
