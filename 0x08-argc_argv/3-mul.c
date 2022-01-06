@@ -13,7 +13,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j;
+	int i, j, k;
 
 	if (argc != 3)
 	{
@@ -22,10 +22,11 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		i = argv[1];
-		j = argv[2];
+		i = *argv[1];
+		j = *argv[2];
+		k = (i * j);
 
-		printf("%d\n", i * j);
+		printf("%d\n", k);
 		return (0);
 	}
 }
