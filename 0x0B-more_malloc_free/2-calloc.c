@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
 * _calloc - a function that allocates memory for an array
 * @nmemb: n of bytes
