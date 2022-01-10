@@ -1,56 +1,46 @@
-/**
- * argstostr - function that concatenates all arguments of the program
- * ac: integer
- * av: **char
- * Return: char pointer
- * srleng - string length
- * @str: arguments char
- */
-
 #include "holberton.h"
 #include <stdlib.h>
-#include <stdio.h>
 
-int srleng(char *str);
-
+/**
+ * argstostr - concatenates all arguments of the program
+ * @ac: argument count
+ * @av: double pointer to argument values
+ *
+ * Return: pointer to new string or NULL if fails
+ */
 char *argstostr(int ac, char **av)
 {
-	char *arr;
-	int i, j, b;
-	int len;
-	int leng;
+	int i, j;
+	int k = 0;
+	int size = 0;
+	char *p;
 
-	len = 0;
-
-	if ((ac == 0) || (av == NULL))
-	{
+	if (av == NULL || ac == 0)
 		return (NULL);
-	}
-	else
+
+	for (i = 0; i < ac; i++)
 	{
-		for (i = 0; i < ac; i++)
+		for (j = 0; av[i][j] != '\0'; j++)
+			size++;
+		size++;
+	}
+
+	size++;
+	p = (char *)malloc(size * sizeof(char));
+	if (p == NULL)
+		return (NULL);
+
+	for (i = 0; i < ac; i++)
+	{
+		for (j = 0; av[i][j] != '\0'; j++)
 		{
-			j = 0;
-			while (av[i][j] != '\0')
-			{
-				j++;
-
-			}
-			len += j;
+			p[k] = av[i][j];
+			k++;
 		}
+		p[k] = '\n';
+		k++;
+	}
 
-		arr = (char *)malloc(sizeof(char) * (len + ac) + 1);
-
-		b = 0;
-		for (i = 0; i < ac; i++)
-		{
-			leng = srleng(av[i]);
-			for (j = 0; j < leng; j++)
-			{
-				arr[b] = av[i][j];
-				b++;
-			}
-			arr[b] = '\n';
-			b++;
-		}
-
+	p[k] = '\0';
+	return (p);
+}
