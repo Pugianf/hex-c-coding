@@ -11,3 +11,4 @@
 3. Kernel style code checking using [betty](https://github.com/holbertonschool/Betty)
 4. Going through some standard library functions implementation
 
+Alo, Berola!
