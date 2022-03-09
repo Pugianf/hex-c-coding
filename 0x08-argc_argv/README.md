@@ -4,4 +4,4 @@
 
 ---
 
-Practicing more pointers, arrays and strings in C!
+Practicing more pointers, arrays and strings in C
